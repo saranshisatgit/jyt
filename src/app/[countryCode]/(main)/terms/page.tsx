@@ -58,7 +58,10 @@ export default async function TermPage({ params }: Params) {
         </h2>
         <p className="mb-6">
           Here we would like to share some things that are legally binding
-          between us and you as a customer.
+          between us and you as a customer. As you know, we make high quality
+          personalised custom garments for which we use different kind of
+          technology and store various information across the globe and so we
+          thought you should how we use your information
         </p>
 
         {/* Conditional Rendering based on countryCode */}
