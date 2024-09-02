@@ -99,9 +99,9 @@ export default async function TermPage({ params }: Params) {
 
           <h3 className="text-xl font-semibold mb-2">Personalized Products</h3>
           <p className="mb-4">
-            If you opt to personalize a product, you may choose a "private
-            design" option. This ensures that your personalized design will not
-            be published or used on our website or in any of our promotional
+            If you opt to personalize a product, you may choose a private design
+            option. This ensures that your personalized design will not be
+            published or used on our website or in any of our promotional
             materials. Your privacy and creative expression are important to us.
           </p>
 
