@@ -107,26 +107,26 @@ export default async function Footer() {
               </div>
             )}
             <div className="flex flex-col gap-y-2">
-              <span className="txt-small-plus txt-ui-fg-base">Medusa</span>
+              <span className="txt-small-plus txt-ui-fg-base">About us</span>
               <ul className="grid grid-cols-1 gap-y-2 text-ui-fg-subtle txt-small">
                 <li>
                   <a
-                    href="https://github.com/medusajs"
+                    href="https://github.com/jaal-yantra-textiles/commerce"
                     target="_blank"
                     rel="noreferrer"
                     className="hover:text-ui-fg-base"
                   >
-                    GitHub
+                    Source Code
                   </a>
                 </li>
                 <li>
                   <a
-                    href="https://docs.medusajs.com"
+                    href="https://docs.jaalyantra.com"
                     target="_blank"
                     rel="noreferrer"
                     className="hover:text-ui-fg-base"
                   >
-                    Documentation
+                    Protocol
                   </a>
                 </li>
                 <li>
@@ -136,7 +136,42 @@ export default async function Footer() {
                     rel="noreferrer"
                     className="hover:text-ui-fg-base"
                   >
-                    Source code
+                    Ethics
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="flex flex-col gap-y-2">
+              <span className="txt-small-plus txt-ui-fg-base">About us</span>
+              <ul className="grid grid-cols-1 gap-y-2 text-ui-fg-subtle txt-small">
+                <li>
+                  <a
+                    href="https://github.com/jaal-yantra-textiles/commerce"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="hover:text-ui-fg-base"
+                  >
+                    Source Code
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://docs.jaalyantra.com"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="hover:text-ui-fg-base"
+                  >
+                    Protocol
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/medusajs/nextjs-starter-medusa"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="hover:text-ui-fg-base"
+                  >
+                    Ethics
                   </a>
                 </li>
               </ul>
@@ -148,6 +183,15 @@ export default async function Footer() {
             © {new Date().getFullYear()} Cici Label Store. All rights reserved.
           </Text>
           <MedusaCTA />
+        </div>
+        <div className="flex w-full mb-16 justify-between text-ui-fg-muted">
+          <Text>
+            We operate in EU as Kind Health Tech SIA Reg No:40203579735.
+            <Text>
+              India as Jaal Yantra Textiles LTD:U47510DL2023PTC415979 and soon
+              in US.
+            </Text>
+          </Text>
         </div>
       </div>
     </footer>
