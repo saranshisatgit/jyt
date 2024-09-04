@@ -155,6 +155,15 @@ module.exports = {
         enter: "enter 200ms ease-out",
         "slide-in": "slide-in 1.2s cubic-bezier(.41,.73,.51,1.02)",
         leave: "leave 150ms ease-in forwards",
+        moveFlow: "moveFlow 6s ease-in-out infinite",
+        flowingGradient: "flowingGradient 8s ease-in-out infinite",
+        backgroundPosition: {
+          "gradient-start": "0% 50%",
+          "gradient-end": "100% 50%",
+        },
+        backgroundSize: {
+          "200%": "200% 200%",
+        },
       },
     },
   },
